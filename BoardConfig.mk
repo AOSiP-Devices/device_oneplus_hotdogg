@@ -8,9 +8,6 @@
 BOARD_VENDOR := oneplus
 DEVICE_PATH := device/oneplus/hotdogg
 
-# Assert
-TARGET_OTA_ASSERT_DEVICE := OnePlus7TProNR
-
 # Display
 TARGET_SCREEN_DENSITY := 560
 
