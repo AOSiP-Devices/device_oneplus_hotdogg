@@ -348,6 +348,6 @@
     <integer name="config_defaultNotificationVibrationIntensity">3</integer>
 
     <!-- Radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">48px</dimen>
+    <dimen name="rounded_corner_radius">140px</dimen>
 
 </resources>
