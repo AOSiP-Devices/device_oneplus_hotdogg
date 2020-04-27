@@ -12,11 +12,10 @@ $(call inherit-product, vendor/oneplus/hotdog/hotdog-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-aosip
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage/frameworks/base/packages/SystemUI \
-    $(LOCAL_PATH)/overlay-lineage/lineage-sdk
+    $(LOCAL_PATH)/overlay-aosip/frameworks/base/packages/SystemUI
 
 # A/B
 AB_OTA_PARTITIONS += \
