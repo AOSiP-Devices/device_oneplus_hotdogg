@@ -25,4 +25,5 @@
 
     <!-- Allow device to use unordinary cutout overlays -->
     <bool name="config_customCutout">true</bool>
+
 </resources>
