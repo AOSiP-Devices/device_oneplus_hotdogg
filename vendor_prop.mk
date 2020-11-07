@@ -19,6 +19,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     ro.boot.project_name=19861 \
     ro.vendor.boot.project_name=19861 \
     rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
+    telephony.lteOnCdmaDevice=1 \
     vendor.boot.fingerprintbstate=orange \
     dalvik.vm.heapstartsize=24m \
     dalvik.vm.heapgrowthlimit=384m \
