@@ -1,7 +1,7 @@
 PRODUCT_PROPERTY_OVERRIDES +=  \
     persist.radio.multisim.config=ssss \
-    ro.telephony.default_network=32 \
     persist.sys.oem_smooth=0 \
+    ro.telephony.default_network=30 \
     persist.vendor.radio.5g_mode_pref=1 \
     persist.rcs.otp_sms_port=0 \
     persist.rcs.supported=1 \
